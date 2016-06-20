@@ -1,0 +1,1 @@
+C:\TDM-GCC-64\x86_64-w64-mingw32\bin\dlltool --def OpenCL.def --output-lib OpenCL.lib
