@@ -25,6 +25,9 @@ path = "examples/demo/main.rs"
 name = "platform"
 path = "examples/platform/main.rs"
 
+[build-dependencies]
+pkg-config = "0.3.3"
+
 [dependencies]
 log = "^0.3.1"
 libc = "^0.1.8"

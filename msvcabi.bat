@@ -1,2 +1,3 @@
-msvcgendef
-lib /def:msvcopencl.def /out:OpenCL.lib
+@echo off
+gendef
+externaltools\msvc\lib /def:OpenCL.def /out:OpenCL.lib

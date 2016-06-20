@@ -435,7 +435,7 @@ pub static CL_PROFILING_COMMAND_END:                     cl_uint = 0x1283;
 pub mod ll {
   use cl::*;
   use libc;
-
+  #[link(name="opencl")]
   extern
   {
     /* Platform APIs */
